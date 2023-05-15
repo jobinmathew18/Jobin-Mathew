@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./home.css";
 import { useLocation } from "react-router-dom";
 import axios from "axios";
-import Ads from "./ads/Ads";
+import Ads from "../../components/ads/Ads";
 
 const Home = () => {
   const location = useLocation();
@@ -25,6 +25,7 @@ const Home = () => {
         <div className="bottomBar">
           {info.map((e, index) => (
             <Ads key={index} companyId={e.companyId} img={e.imageUrl} />
+            
           ))}
         </div>
       )}

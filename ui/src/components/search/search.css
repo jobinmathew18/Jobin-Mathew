@@ -11,6 +11,8 @@
 
 h1{
     letter-spacing: 4px;
+    color: rgb(74, 70, 70);
+    font-weight: 300;
 }
 
 .searchBar{
