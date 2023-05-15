@@ -1,0 +1,14 @@
+
+.bottomBar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.companyTable{
+    width: 80%;
+    border: 1px solid black
+}
+
+
